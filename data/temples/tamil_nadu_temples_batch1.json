@@ -1,0 +1,102 @@
+[
+  {
+    "id": "TN_CHIDAMBARAM_001",
+    "name": { "en": "Nataraja Temple", "ta": "நடராஜர் கோயில்", "hi": "नटराज मंदिर" },
+    "type": "hindu", "deity": "Shiva as Nataraja",
+    "state": "Tamil Nadu", "city": "Chidambaram",
+    "location": { "lat": 11.4013, "lng": 79.7086 },
+    "highlights": ["Cosmic Dance of Shiva", "Pancha Bhoota Stalam (Akasha)", "Gold-rooved sanctum"],
+    "importance": 5, "UNESCO": false, "annual_festival": "Thiruvathirai (Dec-Jan)",
+    "rating": 4.8
+  },
+  {
+    "id": "TN_MADURAI_002",
+    "name": { "en": "Meenakshi Amman Temple", "ta": "மீனாட்சி அம்மன் கோயில்", "hi": "मीनाक्षी अम्मान मंदिर" },
+    "type": "hindu", "deity": "Goddess Meenakshi (Parvati)",
+    "state": "Tamil Nadu", "city": "Madurai",
+    "location": { "lat": 9.9212, "lng": 78.1184 },
+    "highlights": ["12 magnificent gopurams", "Thousand Pillar Hall", "Golden vimana"],
+    "importance": 5, "UNESCO": false, "annual_festival": "Meenakshi Thirukalyanam (Apr-May)",
+    "rating": 4.9
+  },
+  {
+    "id": "TN_THANJAVUR_003",
+    "name": { "en": "Brihadeeswarar Temple", "ta": "பெரிய கோயில்", "hi": "बृहदीश्वर मंदिर" },
+    "type": "hindu", "deity": "Shiva as Brihadeeswarar",
+    "state": "Tamil Nadu", "city": "Thanjavur",
+    "location": { "lat": 10.7833, "lng": 79.1367 },
+    "highlights": ["UNESCO World Heritage Site", "216 ft tall vimana", "Nandi statue carved from single rock"],
+    "importance": 5, "UNESCO": true, "annual_festival": "Panguni Uthiram (Mar-Apr)",
+    "rating": 4.8
+  },
+  {
+    "id": "TN_RAMESWARAM_004",
+    "name": { "en": "Ramanathaswamy Temple", "ta": "இராமநாதசுவாமி கோயில்", "hi": "रामनाथस्वामी मंदिर" },
+    "type": "hindu", "deity": "Shiva as Ramanathaswamar",
+    "state": "Tamil Nadu", "city": "Rameswaram",
+    "location": { "lat": 9.2879, "lng": 79.3117 },
+    "highlights": ["Longest temple corridor in India (1220m)", "22 sacred wells", "Ramayana connection"],
+    "importance": 5, "UNESCO": false, "annual_festival": "Aani Thirumanjanam (Jun-Jul)",
+    "rating": 4.7
+  },
+  {
+    "id": "TN_TIRUVANNAMALAI_005",
+    "name": { "en": "Arunachaleswarar Temple", "ta": "அருணாச்சலேஸ்வரர் கோயில்", "hi": "अरुणाचलेश्वर मंदिर" },
+    "type": "hindu", "deity": "Shiva as Arunachaleswarar (Fire)",
+    "state": "Tamil Nadu", "city": "Tiruvannamalai",
+    "location": { "lat": 12.2289, "lng": 79.0814 },
+    "highlights": ["Pancha Bhoota Stalam (Agni/Fire)", "Girivalam (11km circumambulation)", "Karthigai Deepam festival"],
+    "importance": 5, "UNESCO": false, "annual_festival": "Karthigai Deepam (Nov-Dec)",
+    "rating": 4.8
+  },
+  {
+    "id": "TN_SRIRANGAM_006",
+    "name": { "en": "Sri Ranganathaswamy Temple", "ta": "ஸ்ரீ ரங்கநாதசுவாமி கோயில்", "hi": "श्री रंगनाथस्वामी मंदिर" },
+    "type": "hindu", "deity": "Vishnu as Ranganatha",
+    "state": "Tamil Nadu", "city": "Srirangam, Tiruchirappalli",
+    "location": { "lat": 10.8611, "lng": 78.6878 },
+    "highlights": ["Largest functioning Hindu temple in the world", "7 concentric walls", "21 gopurams"],
+    "importance": 5, "UNESCO": false, "annual_festival": "Sriramnavami (Mar-Apr)",
+    "rating": 4.8
+  },
+  {
+    "id": "TN_KANCHIPURAM_007",
+    "name": { "en": "Kailasanathar Temple", "ta": "கைலாசநாதர் கோயில்", "hi": "कैलासनाथ मंदिर" },
+    "type": "hindu", "deity": "Shiva as Kailasanathar",
+    "state": "Tamil Nadu", "city": "Kanchipuram",
+    "location": { "lat": 12.8317, "lng": 79.7036 },
+    "highlights": ["Oldest temple in Kanchipuram", "Pallava dynasty architecture", "44 minor shrines"],
+    "importance": 4, "UNESCO": false, "annual_festival": "Maha Shivaratri (Feb-Mar)",
+    "rating": 4.5
+  },
+  {
+    "id": "TN_MAHABALIPURAM_008",
+    "name": { "en": "Shore Temple", "ta": "கடற்கரை கோயில்", "hi": "शोर मंदिर" },
+    "type": "hindu", "deity": "Shiva & Vishnu",
+    "state": "Tamil Nadu", "city": "Mahabalipuram",
+    "location": { "lat": 12.6236, "lng": 80.1919 },
+    "highlights": ["UNESCO World Heritage Site", "Bay of Bengal backdrop", "Pallava architecture masterpiece"],
+    "importance": 4, "UNESCO": true, "annual_festival": "Mamallapuram Dance Festival (Jan-Feb)",
+    "rating": 4.7
+  },
+  {
+    "id": "TN_TIRUCHIRAPPALLI_009",
+    "name": { "en": "Rockfort Temple", "ta": "தெப்பக்கயிலாயம்", "hi": "रॉकफोर्ट मंदिर" },
+    "type": "hindu", "deity": "Ganesha & Shiva",
+    "state": "Tamil Nadu", "city": "Tiruchirappalli",
+    "location": { "lat": 10.8219, "lng": 78.6833 },
+    "highlights": ["83m rock formation", "Panoramic city view", "Pillared halls carved from rock"],
+    "importance": 4, "UNESCO": false, "annual_festival": "Vinayaka Chaturthi (Aug-Sep)",
+    "rating": 4.6
+  },
+  {
+    "id": "TN_COIMBATORE_010",
+    "name": { "en": "Marudheshwarar Temple", "ta": "மருதீஸ்வரர் கோயில்", "hi": "मरुदेश्वर मंदिर" },
+    "type": "hindu", "deity": "Shiva as Marudheshwarar",
+    "state": "Tamil Nadu", "city": "Coimbatore",
+    "location": { "lat": 11.0055, "lng": 76.9770 },
+    "highlights": ["Historic significance", "Dravidian architecture", "Healing legend"],
+    "importance": 3, "UNESCO": false, "annual_festival": "Maha Shivaratri (Feb-Mar)",
+    "rating": 4.3
+  }
+]
