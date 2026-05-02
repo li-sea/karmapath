@@ -1,0 +1,457 @@
+[
+  {
+    "id": "TN_MADURAI_PP_001",
+    "temple_id": "TN_MADURAI_002",
+    "name": {
+      "en": "Thousand Pillar Hall - Wisdom Pillar",
+      "ta": "ஆயிரக்கால் மண்டபம் - ஞானத் தூண்",
+      "hi": "हज़ार स्तंभ हॉल - ज्ञान स्तंभ"
+    },
+    "type": "A",
+    "subtype": "A03",
+    "pray_category": ["education", "wisdom"],
+    "offering": {
+      "type": "flowers",
+      "description": "Offer lotus flowers to the pillar",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Enter the hall from south entrance",
+        "Find the pillar with carved musicians",
+        "Touch the pillar 3 times clockwise",
+        "Pray for wisdom and education"
+      ],
+      "best_time": "Early morning (6-8 AM)",
+      "duration_min": 5
+    },
+    "location": {
+      "temple_id": "TN_MADURAI_002",
+      "gps": { "lat": 9.9212, "lng": 78.1184 },
+      "indoor_offset": { "x": 15, "y": -8 },
+      "description": "Inside the hall, 3rd pillar from south entrance"
+    },
+    "myth": {
+      "story": "Built by Vishwakarma himself. Each pillar produces a different musical note when tapped.",
+      "source": "local_legend"
+    },
+    "popularity": {
+      "rating": 4.6,
+      "verified_count": 342,
+      "monthly_visitors": 15000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "TN_MADURAI_PP_002",
+    "temple_id": "TN_MADURAI_002",
+    "name": {
+      "en": "Potramarai Kulam - Sacred Lotus Tank",
+      "ta": "பொற்றாமரை குளம்",
+      "hi": "सुनहरा कमल तालाब"
+    },
+    "type": "N",
+    "subtype": "N03",
+    "pray_category": ["health", "family"],
+    "offering": {
+      "type": "flowers",
+      "description": "Throw flowers into the tank, take a sip of water",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Enter the temple complex",
+        "Walk to the golden lotus tank",
+        "Buy flowers from nearby vendor",
+        "Throw flowers while making a wish",
+        "Take a sip of the sacred water"
+      ],
+      "best_time": "Any time (temple hours)",
+      "duration_min": 10
+    },
+    "location": {
+      "temple_id": "TN_MADURAI_002",
+      "gps": { "lat": 9.9208, "lng": 78.1180 },
+      "description": "Center of the temple complex, east of main sanctum"
+    },
+    "myth": {
+      "story": "The tank is said to have no mud at the bottom. Fish in the tank are believed to be scholars who jumped in while distracted by the beauty of the temple.",
+      "source": "temple_tradition"
+    },
+    "popularity": {
+      "rating": 4.8,
+      "verified_count": 567,
+      "monthly_visitors": 25000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "TN_CHIDAMBARAM_PP_001",
+    "temple_id": "TN_CHIDAMBARAM_001",
+    "name": {
+      "en": "Golden Roof Sanctum - Akasha Lingam",
+      "ta": "தங்க சன்னதி - ஆகாச லிங்கம்",
+      "hi": "स्वर्ण गर्भगृह - आकाश लिंग"
+    },
+    "type": "A",
+    "subtype": "A02",
+    "pray_category": ["moksha", "wisdom"],
+    "offering": {
+      "type": "bilva_leaves",
+      "description": "Offer bilva leaves, circumambulate 3 times",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Enter the golden-rooved sanctum",
+        "Stand before the empty space (Akasha Lingam)",
+        "Offer bilva leaves",
+        "Circumambulate 3 times",
+        "Meditate on the formless Shiva"
+      ],
+      "best_time": "Morning puja (6-8 AM)",
+      "duration_min": 15
+    },
+    "location": {
+      "temple_id": "TN_CHIDAMBARAM_001",
+      "gps": { "lat": 11.4013, "lng": 79.7086 },
+      "description": "Main sanctum, under the golden roof"
+    },
+    "myth": {
+      "story": "The sanctum has no idol - only an empty space representing the formless Shiva (Akasha). The golden roof represents the cosmos.",
+      "source": "temple_tradition"
+    },
+    "popularity": {
+      "rating": 4.9,
+      "verified_count": 890,
+      "monthly_visitors": 20000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "TN_CHIDAMBARAM_PP_002",
+    "temple_id": "TN_CHIDAMBARAM_001",
+    "name": {
+      "en": "108 Karana Pillars - Dance Posture Replication",
+      "ta": "108 கரணத் தூண்கள்",
+      "hi": "108 करण स्तंभ"
+    },
+    "type": "A",
+    "subtype": "A03",
+    "pray_category": ["arts", "health"],
+    "offering": {
+      "type": "dance",
+      "description": "Replicate the dance posture carved on the pillar",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Walk along the outer prakaram",
+        "Find the 108 carved pillars",
+        "Replicate each dance posture",
+        "Pray for artistic talent and health"
+      ],
+      "best_time": "Morning or evening",
+      "duration_min": 30
+    },
+    "location": {
+      "temple_id": "TN_CHIDAMBARAM_001",
+      "gps": { "lat": 11.4015, "lng": 79.7088 },
+      "description": "Outer prakaram corridor, along the walls"
+    },
+    "myth": {
+      "story": "Each pillar depicts one of the 108 karanas (dance postures) of Bharatanatyam, carved by Nataraja himself.",
+      "source": "temple_tradition"
+    },
+    "popularity": {
+      "rating": 4.5,
+      "verified_count": 234,
+      "monthly_visitors": 8000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "TN_RAMESWARAM_PP_001",
+    "temple_id": "TN_RAMESWARAM_004",
+    "name": {
+      "en": "22 Sacred Wells (Theertham) - Agni Theertham",
+      "ta": "22 தீர்த்தங்கள் - அக்னி தீர்த்தம்",
+      "hi": "22 तीर्थ - अग्नि तीर्थ"
+    },
+    "type": "N",
+    "subtype": "N03",
+    "pray_category": ["moksha", "health"],
+    "offering": {
+      "type": "bath",
+      "description": "Take a holy bath in each of the 22 wells",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Start from Agni Theertham (east of temple)",
+        "Take a bath in each well",
+        "Chant the name of the corresponding deity",
+        "Complete all 22 wells for full blessing",
+        "Enter the temple after completing all baths"
+      ],
+      "best_time": "Early morning (5-7 AM)",
+      "duration_min": 60
+    },
+    "location": {
+      "temple_id": "TN_RAMESWARAM_004",
+      "gps": { "lat": 9.2880, "lng": 79.3120 },
+      "description": "22 wells arranged around the temple complex"
+    },
+    "myth": {
+      "story": "Each of the 22 wells corresponds to a different deity. Rama created them with his arrow. Bathing in all 22 washes away all sins.",
+      "source": "ramayana"
+    },
+    "popularity": {
+      "rating": 4.9,
+      "verified_count": 1200,
+      "monthly_visitors": 30000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "TN_RAMESWARAM_PP_002",
+    "temple_id": "TN_RAMESWARAM_004",
+    "name": {
+      "en": "Longest Temple Corridor - Vow Walking",
+      "ta": "நீளமான கோபுர வரிசை",
+      "hi": "सबसे लंबा मंदिर गलियारा"
+    },
+    "type": "P",
+    "subtype": "P01",
+    "pray_category": ["health", "family", "safety"],
+    "offering": {
+      "type": "walking",
+      "description": "Walk the entire corridor while praying",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Enter the corridor from the main entrance",
+        "Walk the full 1220 meters",
+        "Pray at each of the 1000+ pillars",
+        "Complete 3 rounds for full blessing"
+      ],
+      "best_time": "Morning (6-9 AM) or evening (4-7 PM)",
+      "duration_min": 45
+    },
+    "location": {
+      "temple_id": "TN_RAMESWARAM_004",
+      "gps": { "lat": 9.2878, "lng": 79.3115 },
+      "description": "Full length of the temple corridor"
+    },
+    "myth": {
+      "story": "The corridor is the longest in any Hindu temple in India. Each pillar has a unique carving. Walking the full length is equivalent to a pilgrimage.",
+      "source": "temple_tradition"
+    },
+    "popularity": {
+      "rating": 4.7,
+      "verified_count": 456,
+      "monthly_visitors": 18000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "TN_TIRUVANNAMALAI_PP_001",
+    "temple_id": "TN_TIRUVANNAMALAI_005",
+    "name": {
+      "en": "Girivalam - 11km Circumambulation Path",
+      "ta": "கிரிவலம் - 11 கி.மீ. சுற்றுவழி",
+      "hi": "गिरिवलम - 11 किमी परिक्रमण पथ"
+    },
+    "type": "P",
+    "subtype": "P01",
+    "pray_category": ["moksha", "health", "safety"],
+    "offering": {
+      "type": "walking",
+      "description": "Walk 11km around Arunachala hill barefoot",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Start at Arunachaleswarar Temple",
+        "Walk barefoot around the hill",
+        "Pray at 8 shrines along the path",
+        "Complete full 11km circuit",
+        "Best done on full moon night (Pournami)"
+      ],
+      "best_time": "Full moon night (Pournami)",
+      "duration_min": 180
+    },
+    "location": {
+      "temple_id": "TN_TIRUVANNAMALAI_005",
+      "gps": { "lat": 12.2289, "lng": 79.0814 },
+      "description": "11km path around Arunachala hill"
+    },
+    "myth": {
+      "story": "Arunachala hill is Shiva himself in the form of fire (Agni). Walking around it barefoot on full moon night washes away all sins and grants moksha.",
+      "source": "temple_tradition"
+    },
+    "popularity": {
+      "rating": 5.0,
+      "verified_count": 2300,
+      "monthly_visitors": 50000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "TN_TIRUVANNAMALAI_PP_002",
+    "temple_id": "TN_TIRUVANNAMALAI_005",
+    "name": {
+      "en": "Sathanga Sannadhi - Eight Shrines",
+      "ta": "சதங்க சன்னதி - எட்டு சன்னதிகள்",
+      "hi": "सठंग सन्निधि - आठ मंदिर"
+    },
+    "type": "A",
+    "subtype": "A01",
+    "pray_category": ["health", "wealth"],
+    "offering": {
+      "type": "prayer",
+      "description": "Pray at each of the 8 shrines during Girivalam",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Start from Indira Sannadhi",
+        "Visit all 8 shrines in order",
+        "Offer prayer at each shrine",
+        "Each shrine corresponds to a different deity"
+      ],
+      "best_time": "During Girivalam (full moon night)",
+      "duration_min": 30
+    },
+    "location": {
+      "temple_id": "TN_TIRUVANNAMALAI_005",
+      "gps": { "lat": 12.2290, "lng": 79.0820 },
+      "description": "8 shrines along the Girivalam path"
+    },
+    "myth": {
+      "story": "The 8 shrines represent 8 different forms of Shiva. Visiting all 8 during Girivalam completes the spiritual circuit.",
+      "source": "temple_tradition"
+    },
+    "popularity": {
+      "rating": 4.8,
+      "verified_count": 1500,
+      "monthly_visitors": 40000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "TN_SRIRANGAM_PP_001",
+    "temple_id": "TN_SRIRANGAM_006",
+    "name": {
+      "en": "Seven Prakarams - Seven Enclosures",
+      "ta": "ஏழு பிரகாரங்கள்",
+      "hi": "सात प्रकोष्ठ"
+    },
+    "type": "P",
+    "subtype": "P01",
+    "pray_category": ["health", "wealth", "family"],
+    "offering": {
+      "type": "walking",
+      "description": "Walk through all 7 concentric enclosures",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Enter from the outermost enclosure",
+        "Walk through each prakaram in order",
+        "Pray at the shrines in each enclosure",
+        "Reach the inner sanctum for darshan"
+      ],
+      "best_time": "Morning (6-9 AM)",
+      "duration_min": 45
+    },
+    "location": {
+      "temple_id": "TN_SRIRANGAM_006",
+      "gps": { "lat": 10.8611, "lng": 78.6878 },
+      "description": "7 concentric enclosures around the main sanctum"
+    },
+    "myth": {
+      "story": "Each prakaram represents a different level of spiritual purity. Walking through all 7 is a journey from the material world to the divine.",
+      "source": "temple_tradition"
+    },
+    "popularity": {
+      "rating": 4.7,
+      "verified_count": 678,
+      "monthly_visitors": 25000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "TN_MAHABALIPURAM_PP_001",
+    "temple_id": "TN_MAHABALIPURAM_008",
+    "name": {
+      "en": "Descent of the Ganges - Rock Relief",
+      "ta": "கங்கை அவதாரம் - பாறை நிழற்படம்",
+      "hi": "गंगा का अवतरण - चट्टान राहत"
+    },
+    "type": "A",
+    "subtype": "A03",
+    "pray_category": ["moksha", "blessing"],
+    "offering": {
+      "type": "prayer",
+      "description": "Pray before the rock relief, touch the carved figures",
+      "cost": "free"
+    },
+    "ritual": {
+      "steps": [
+        "Approach the rock relief",
+        "Observe the carved figures of celestial beings",
+        "Find the central crack (representing Ganges)",
+        "Pray for blessings and moksha"
+      ],
+      "best_time": "Morning (9 AM - 12 PM)",
+      "duration_min": 15
+    },
+    "location": {
+      "temple_id": "TN_MAHABALIPURAM_008",
+      "gps": { "lat": 12.6230, "lng": 80.1910 },
+      "description": "Large rock face near the Shore Temple"
+    },
+    "myth": {
+      "story": "The rock relief depicts the descent of the Ganges river from heaven to earth. The central crack represents the river channel. Bhaghiratha's penance is shown on the left.",
+      "source": "temple_tradition"
+    },
+    "popularity": {
+      "rating": 4.8,
+      "verified_count": 445,
+      "monthly_visitors": 12000
+    },
+    "images": [],
+    "source": "wikipedia",
+    "verified": true,
+    "created_at": "20026-05-02"
+  }
+]
