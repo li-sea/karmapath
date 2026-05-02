@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "description": "Vedic Astrology (Jyotish) base data for KarmaPath",
+  "rashis": [
+    { "id": "R01", "name": "Mesha", "english": "Aries", "hindi": "मेष", "tamil": "மேஷம்", "telugu": "మేషం", "symbol": "🐏", "element": "fire", "ruler": "Mars", "quality": "movable", "gender": "male", "nature": "diurnal" },
+    { "id": "R02", "name": "Vrishabha", "english": "Taurus", "hindi": "वृषभ", "tamil": "ரிஷபம்", "telugu": "వృషభం", "symbol": "🐂", "element": "earth", "ruler": "Venus", "quality": "fixed", "gender": "female", "nature": "nocturnal" },
+    { "id": "R03", "name": "Mithuna", "english": "Gemini", "hindi": "मिथुन", "tamil": "மிதுனம்", "telugu": "మిథునం", "symbol": "👫", "element": "air", "ruler": "Mercury", "quality": "dual", "gender": "male", "nature": "diurnal" },
+    { "id": "R04", "name": "Karka", "english": "Cancer", "hindi": "कर्क", "tamil": "கடகம்", "telugu": "కర్కాటకం", "symbol": "🦀", "element": "water", "ruler": "Moon", "quality": "movable", "gender": "female", "nature": "nocturnal" },
+    { "id": "R05", "name": "Simha", "english": "Leo", "hindi": "सिंह", "tamil": "சிம்மம்", "telugu": "సింహం", "symbol": "🦁", "element": "fire", "ruler": "Sun", "quality": "fixed", "gender": "male", "nature": "diurnal" },
+    { "id": "R06", "name": "Kanya", "english": "Virgo", "hindi": "कन्या", "tamil": "கன்னி", "telugu": "కన్య", "symbol": "👧", "element": "earth", "ruler": "Mercury", "quality": "dual", "gender": "female", "nature": "nocturnal" },
+    { "id": "R07", "name": "Tula", "english": "Libra", "hindi": "तुला", "tamil": "துலாம்", "telugu": "తుల", "symbol": "⚖️", "element": "air", "ruler": "Venus", "quality": "movable", "gender": "male", "nature": "diurnal" },
+    { "id": "R08", "name": "Vrishchika", "english": "Scorpio", "hindi": "वृश्चिक", "tamil": "விசுகம்", "telugu": "వృశ్చికం", "symbol": "🦂", "element": "water", "ruler": "Mars", "quality": "fixed", "gender": "female", "nature": "nocturnal" },
+    { "id": "R09", "name": "Dhanu", "english": "Sagittarius", "hindi": "धनु", "tamil": "தனுஸ்", "telugu": "ధనుస్సు", "symbol": "🏹", "element": "fire", "ruler": "Jupiter", "quality": "dual", "gender": "male", "nature": "diurnal" },
+    { "id": "R10", "name": "Makara", "english": "Capricorn", "hindi": "मकर", "tamil": "மகரம்", "telugu": "మకరం", "symbol": "🐐", "element": "earth", "ruler": "Saturn", "quality": "movable", "gender": "female", "nature": "nocturnal" },
+    { "id": "R11", "name": "Kumbha", "english": "Aquarius", "hindi": "कुंभ", "tamil": "கும்பம்", "telugu": "కుంభం", "symbol": "🏺", "element": "air", "ruler": "Saturn", "quality": "fixed", "gender": "male", "nature": "diurnal" },
+    { "id": "R12", "name": "Meena", "english": "Pisces", "hindi": "मीन", "tamil": "மீనம்", "telugu": "మీనం", "symbol": "🐟", "element": "water", "ruler": "Jupiter", "quality": "dual", "gender": "female", "nature": "nocturnal" }
+  ],
+  "nakshatras": [
+    { "id": "N01", "name": "Ashwini", "hindi": "अश्विनी", "tamil": "அஸ்வினி", "telugu": "అశ్విని", "symbol": "🐴", "ruler": "Ketu", "deity": "Ashwini Kumaras", "gender": "male", "nature": "movable", "element": "fire", "body_part": "head" },
+    { "id": "N02", "name": "Bharani", "hindi": "भरणी", "tamil": "பரணி", "telugu": "భరణి", "symbol": "🔥", "ruler": "Venus", "deity": "Yama", "gender": "female", "nature": "fixed", "element": "fire", "body_part": "face" },
+    { "id": "N03", "name": "Krittika", "hindi": "कृत्तिका", "tamil": "கிருத்திகை", "telugu": "కృత్తిక", "symbol": "🔪", "ruler": "Sun", "deity": "Agni", "gender": "male", "nature": "sharp", "element": "fire", "body_part": "throat" },
+    { "id": "N04", "name": "Rohini", "hindi": "रोहिणी", "tamil": "ரோகிணி", "telugu": "రోహిణి", "symbol": "🏆", "ruler": "Moon", "deity": "Brahma", "gender": "female", "nature": "fixed", "element": "earth", "body_part": "mouth" },
+    { "id": "N05", "name": "Mrigashira", "hindi": "मृगशिरा", "tamil": "மிருகசீரிஷம்", "telugu": "మృగశిర", "symbol": "🦌", "ruler": "Mars", "deity": "Soma", "gender": "male", "nature": "movable", "element": "earth", "body_part": "chest" },
+    { "id": "N06", "name": "Ardra", "hindi": "आर्द्रा", "tamil": "திருவாதிரை", "telugu": "ఆర్ద్ర", "symbol": "💧", "ruler": "Rahu", "deity": "Rudra", "gender": "female", "nature": "sharp", "element": "water", "body_part": "heart" },
+    { "id": "N07", "name": "Punarvasu", "hindi": "पुनर्वसु", "tamil": "பூசம்", "telugu": "పునర్వసు", "symbol": "🏹", "ruler": "Jupiter", "deity": "Aditi", "gender": "male", "nature": "fixed", "element": "water", "body_part": "arms" },
+    { "id": "N08", "name": "Pushya", "hindi": "पुष्य", "tamil": "பூஷம்", "telugu": "పుష్యం", "symbol": "🐏", "ruler": "Saturn", "deity": "Brihaspati", "gender": "female", "nature": "fixed", "element": "water", "body_part": "chest" },
+    { "id": "N09", "name": "Ashlesha", "hindi": "आश्लेषा", "tamil": "ஆயில்யம்", "telugu": "ఆశ్లేష", "symbol": "🐍", "ruler": "Mercury", "deity": "Nagas", "gender": "male", "nature": "sharp", "element": "water", "body_part": "stomach" },
+    { "id": "N10", "name": "Magha", "hindi": "मघा", "tamil": "மகம்", "telugu": "మఘ", "symbol": "👑", "ruler": "Ketu", "deity": "Pitris", "gender": "female", "nature": "fixed", "element": "fire", "body_part": "back" },
+    { "id": "N11", "name": "Purva Phalguni", "hindi": "पूर्वा फाल्गुनी", "tamil": "பூரம்", "telugu": "పూర్వ ఫల్గుని", "symbol": "🛏️", "ruler": "Venus", "deity": "Bhaga", "gender": "male", "nature": "fixed", "element": "fire", "body_part": "heart" },
+    { "id": "N12", "name": "Uttara Phalguni", "hindi": "उत्तरा फाल्गुनी", "tamil": "உத்திரம்", "telugu": "ఉత్తర ఫల్గుని", "symbol": "🌳", "ruler": "Sun", "deity": "Aryaman", "gender": "female", "nature": "fixed", "element": "fire", "body_part": "chest" },
+    { "id": "N13", "name": "Hasta", "hindi": "हस्त", "tamil": "அஸ்தம்", "telugu": "హస్త", "symbol": "🤚", "ruler": "Moon", "deity": "Savitr", "gender": "male", "nature": "movable", "element": "earth", "body_part": "hands" },
+    { "id": "N14", "name": "Chitra", "hindi": "చిత్ర", "tamil": "சித்திரை", "telugu": "చిత్ర", "symbol": "💎", "ruler": "Mars", "deity": "Vishwakarma", "gender": "female", "nature": "sharp", "element": "earth", "body_part": "waist" },
+    { "id": "N15", "name": "Swati", "hindi": "स्वाति", "tamil": "சுவாதி", "telugu": "స్వాతి", "symbol": "🌱", "ruler": "Rahu", "deity": "Vayu", "gender": "male", "nature": "movable", "element": "air", "body_part": "hips" },
+    { "id": "N16", "name": "Vishakha", "hindi": "विशाखा", "tamil": "விசாகம்", "telugu": "విశాఖ", "symbol": "🏺", "ruler": "Jupiter", "deity": "Indra", "gender": "female", "nature": "sharp", "element": "fire", "body_part": "thighs" },
+    { "id": "N17", "name": "Anuradha", "hindi": "अनुराधा", "tamil": "அனுஷம்", "telugu": "అనురాధ", "symbol": "🌸", "ruler": "Saturn", "deity": "Mitra", "gender": "male", "nature": "fixed", "element": "water", "body_part": "heart" },
+    { "id": "N18", "name": "Jyeshtha", "hindi": "ज्येष्ठा", "tamil": "கேட்டை", "telugu": "జ్యేష్ఠ", "symbol": "☂️", "ruler": "Mercury", "deity": "Indra", "gender": "female", "nature": "fixed", "element": "water", "body_part": "chest" },
+    { "id": "N19", "name": "Mula", "hindi": "मूल", "tamil": "மூலம்", "telugu": "మూల", "symbol": "🌿", "ruler": "Ketu", "deity": "Nirriti", "gender": "male", "nature": "movable", "element": "fire", "body_part": "intestines" },
+    { "id": "N20", "name": "Purva Ashadha", "hindi": "पूर्वाषाढा", "tamil": "பூராடம்", "telugu": "పూర్వాషాఢ", "symbol": "🌊", "ruler": "Venus", "deity": "Apah", "gender": "female", "nature": "fixed", "element": "water", "body_part": "stomach" },
+    { "id": "N21", "name": "Uttara Ashadha", "hindi": "उत्तराषाढा", "tamil": "உத்திராடம்", "telugu": "ఉత్తరాషాఢ", "symbol": "🦷", "ruler": "Sun", "deity": "Vishvadevas", "gender": "male", "nature": "fixed", "element": "water", "body_part": "back" },
+    { "id": "N22", "name": "Shravana", "hindi": "श्रवण", "tamil": "திருவோணம்", "telugu": "శ్రవణ", "symbol": "👂", "ruler": "Moon", "deity": "Vishnu", "gender": "female", "nature": "movable", "element": "earth", "body_part": "ears" },
+    { "id": "N23", "name": "Dhanishta", "hindi": "ధనిష్ఠ", "tamil": "திருவாதிரை", "telugu": "ధనిష్ఠ", "symbol": "🥁", "ruler": "Mars", "deity": "Vasus", "gender": "male", "nature": "fixed", "element": "air", "body_part": "eyes" },
+    { "id": "N24", "name": "Shatabhisha", "hindi": "शतभिषा", "tamil": "சதயம்", "telugu": "శతభిష", "symbol": "🌙", "ruler": "Rahu", "deity": "Varuna", "gender": "female", "nature": "sharp", "element": "air", "body_part": "face" },
+    { "id": "N25", "name": "Purva Bhadrapada", "hindi": "पूर्वाभाद्रपदा", "tamil": "பூரட்டாதி", "telugu": "పూర్వాభాద్రపద", "symbol": "⚔️", "ruler": "Jupiter", "deity": "Aja Ekapada", "gender": "male", "nature": "dual", "element": "fire", "body_part": "feet" },
+    { "id": "N26", "name": "Uttara Bhadrapada", "hindi": "उत्तराभाद्रपदा", "tamil": "உத்திரட்டாதி", "telugu": "ఉత్తరాభాద్రపద", "symbol": "🐍", "ruler": "Saturn", "deity": "Ahir Budhnya", "gender": "female", "nature": "fixed", "element": "water", "body_part": "shins" },
+    { "id": "N27", "name": "Revati", "hindi": "रेवती", "tamil": "ரேவதி", "telugu": "రేవతి", "symbol": "🐟", "ruler": "Mercury", "deity": "Pushan", "gender": "male", "nature": "dual", "element": "water", "body_part": "feet" }
+  ],
+  "grahas": [
+    { "id": "G01", "name": "Surya", "english": "Sun", "hindi": "सूर्य", "tamil": "சூரியன்", "telugu": "సూర్యుడు", "symbol": "☀️", "type": "natural benefic", "gender": "male", "element": "fire", "direction": "east", "color": "red", "metal": "gold", "gemstone": "ruby", "day": "Sunday" },
+    { "id": "G02", "name": "Chandra", "english": "Moon", "hindi": "चंद्र", "tamil": "சந்திரன்", "telugu": "చంద్రుడు", "symbol": "🌙", "type": "natural benefic", "gender": "female", "element": "water", "direction": "northwest", "color": "white", "metal": "silver", "gemstone": "pearl", "day": "Monday" },
+    { "id": "G03", "name": "Mangala", "english": "Mars", "hindi": "मंगल", "tamil": "செவ்வாய்", "telugu": "కుజుడు", "symbol": "♂️", "type": "natural malefic", "gender": "male", "element": "fire", "direction": "south", "color": "red", "metal": "copper", "gemstone": "red coral", "day": "Tuesday" },
+    { "id": "G04", "name": "Budha", "english": "Mercury", "hindi": "बुध", "tamil": "புதன்", "telugu": "బుధుడు", "symbol": "☿", "type": "neutral", "gender": "male", "element": "earth", "direction": "north", "color": "green", "metal": "bronze", "gemstone": "emerald", "day": "Wednesday" },
+    { "id": "G05", "name": "Guru", "english": "Jupiter", "hindi": "गुरु", "tamil": "வியாழன்", "telugu": "గురుడు", "symbol": "♃", "type": "natural benefic", "gender": "male", "element": "fire", "direction": "northeast", "color": "yellow", "metal": "gold", "gemstone": "yellow sapphire", "day": "Thursday" },
+    { "id": "G06", "name": "Shukra", "english": "Venus", "hindi": "शुक्र", "tamil": "வெள்ளி", "telugu": "శుక్రుడు", "symbol": "♀️", "type": "natural benefic", "gender": "female", "element": "water", "direction": "southeast", "color": "white", "metal": "silver", "gemstone": "diamond", "day": "Friday" },
+    { "id": "G07", "name": "Shani", "english": "Saturn", "hindi": "शनि", "tamil": "சனி", "telugu": "శని", "symbol": "♄", "type": "natural malefic", "gender": "male", "element": "air", "direction": "west", "color": "blue/black", "metal": "iron", "gemstone": "blue sapphire", "day": "Saturday" },
+    { "id": "G08", "name": "Rahu", "english": "North Node", "hindi": "राहु", "tamil": "ராகு", "telugu": "రాహువు", "symbol": "🐉", "type": "shadow planet (malefic)", "gender": "male", "element": "air", "direction": "northwest", "color": "smoky", "metal": "lead", "gemstone": "hessonite", "day": "Tuesday" },
+    { "id": "G09", "name": "Ketu", "english": "South Node", "hindi": "केतु", "tamil": "கேது", "telugu": "కేతువు", "symbol": "🐲", "type": "shadow planet (malefic)", "gender": "male", "element": "fire", "direction": "south", "color": "smoky", "metal": "lead", "gemstone": "cat's eye", "day": "Tuesday" }
+  ],
+  "daily_omens": {
+    "auspicious": ["seeing a cow", "hearing birds chirping", "finding a coin", "seeing a wedding procession"],
+    "inauspicious": ["seeing a funeral", "hearing an owl", "finding a broken pot", "seeing a snake"],
+    "neutral": ["seeing a dog", "hearing a crow", "finding a leaf", "seeing a cloud"]
+  },
+  "auspicious_times": {
+    "brahma_muhurta": "1:30 AM - 3:30 AM",
+    "abhisheka_muhurta": "6:00 AM - 8:00 AM",
+    "madhyahna_muhurta": "11:00 AM - 1:00 PM",
+    "sandhya_muhurta": "6:00 PM - 8:00 PM",
+    "nishita_muhurta": "10:00 PM - 12:00 AM"
+  },
+  "panchang": {
+    "tithis": ["Pratipada", "Dwitiya", "Tritiya", "Chaturthi", "Panchami", "Shashthi", "Saptami", "Ashtami", "Navami", "Dashami", "Ekadashi", "Dwadashi", "Trayodashi", "Chaturdashi", "Purnima/Amavasya"],
+    "varas": ["Sunday (Ravi Vara)", "Monday (Soma Vara)", "Tuesday (Mangala Vara)", "Wednesday (Budha Vara)", "Thursday (Guru Vara)", "Friday (Shukra Vara)", "Saturday (Shani Vara)"],
+    "nakshatras": "27 nakshatras",
+    "yogas": "27 yogas",
+    "karanas": "11 karanas"
+  }
+}
