@@ -47,14 +47,19 @@ karmapath/
 ├── README.md                      # 本文件
 ├── PROJECT.md                     # 项目详细规划
 ├── DATA.md                        # 数据收集计划
-├── PRAY-POINTS-STRATEGY.md        # 🆕 祈福点数据收集策略
+├── PRAY-POINTS-STRATEGY.md        # 祈福点数据收集策略
 ├── assets/                        # 美术资源
 ├── data/                          # 数据
 │   ├── temples/                   # 寺庙数据
-│   │   └── tamil_nadu_temples_batch1.json  # 首批10座寺庙
+│   │   ├── tamil_nadu_temples_batch1.json  # 10 座
+│   │   ├── karnataka_temples.json          # 20 座
+│   │   ├── kerala_temples.json             # 10 座
+│   │   ├── north_india_temples.json        # 15 座
+│   │   └── ap_telangana_temples.json       # 15 座
 │   ├── pray_points/               # 祈福点数据
-│   │   └── tamil_nadu_pray_points_sample.json  # 首批10个祈福点示例
+│   │   └── tamil_nadu_pray_points_sample.json  # 10 个示例
 │   ├── astrology/                 # 占星数据
+│   │   └── vedic_astrology_base.json       # 12 Rashi + 27 Nakshatra + 9 Graha
 │   └── myths/                     # 神话故事
 ├── scripts/                       # 工具脚本
 └── docs/                          # 文档
@@ -62,12 +67,33 @@ karmapath/
 
 ---
 
+## 📊 当前数据进度
+
+| 数据类型 | 数量 | 状态 |
+|---------|------|------|
+| 寺庙数据 | **70 座** | ✅ 5 个邦/地区 |
+| 祈福点数据 | **10 个示例** | ✅ 格式定义完成 |
+| 吠陀占星数据 | **48 项基础数据** | ✅ 完整 |
+| 神话故事 | 待补充 | 🔄 |
+
+### 寺庙数据分布
+| 地区 | 数量 | 代表寺庙 |
+|------|------|----------|
+| 泰米尔纳德邦 | 10 | Meenakshi Temple, Nataraja Temple |
+| 卡纳塔克邦 | 20 | Virupaksha Temple, Vittala Temple, Guruvayur |
+| 喀拉拉邦 | 10 | Sabarimala, Padmanabhaswamy, Attukal |
+| 北印圣地 | 15 | Kashi Vishwanath, Kedarnath, Khajuraho |
+| 安得拉/特伦甘纳 | 15 | Tirupati, Srikalahasti, Bhadrachalam |
+
+---
+
 ## 🗺️ 开发路线
 
 ### Phase 1: MVP（4-6 周）
 - [x] 项目启动，GitHub 仓库创建
-- [x] 首批 10 座泰米尔纳德邦寺庙数据
+- [x] 首批 70 座寺庙数据（5 邦）
 - [x] 祈福点数据收集策略制定
+- [x] 吠陀占星基础数据
 - [ ] 泰米尔纳德邦 100 座寺庙 + 5,000 祈福点
 - [ ] 基础寺庙浏览/搜索
 - [ ] 地图展示
